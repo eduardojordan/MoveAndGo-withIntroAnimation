@@ -16,6 +16,7 @@
 		043D64E023A964A5002AD2DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D64DE23A964A5002AD2DC /* LaunchScreen.storyboard */; };
 		043D651A23A96BF3002AD2DC /* MoveAndGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D651923A96BF3002AD2DC /* MoveAndGoTests.swift */; };
 		043D652423A96D46002AD2DC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D652323A96D46002AD2DC /* ModelData.swift */; };
+		043D652523A96DC7002AD2DC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D652323A96D46002AD2DC /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -251,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043D651A23A96BF3002AD2DC /* MoveAndGoTests.swift in Sources */,
+				043D652523A96DC7002AD2DC /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
