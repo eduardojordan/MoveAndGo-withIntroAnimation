@@ -9,11 +9,35 @@
 import XCTest
 
 class MoveAndGoTests: XCTestCase {
-
+    
     var locationTestOK: DataLocation = DataLocation(name: "Rossio", companyZoneId: 402, x: -9.1424, y: 38.71497)
-       
-       func testDataLocationExistense(){
-           XCTAssertNotNil(locationTestOK)
-       }
-
+    
+    func testDataLocationExistense(){
+        XCTAssertNotNil(locationTestOK)
+    }
+    
+    func testDecodeLocation(){
+        guard let path = Bundle(for: type(of: self)).path(forResource: "dataJson", ofType: "json") else {
+            XCTFail()
+            return
+        }
+        do{
+            let data = try Data(contentsOf: URL(fileURLWithPath: path))
+            let decoder = JSONDecoder()
+            let locations = try decoder.decode([DataLocation].self, from: data)
+            XCTAssertNotNil(locations)
+            
+            for element in locations{
+                XCTAssertNotNil(element.name)
+                XCTAssertNotNil(element.name)
+                XCTAssertNotNil(element.x)
+                XCTAssertNotNil(element.y)
+            }
+            
+            
+        }catch{
+            XCTFail()
+        }
+    }
+    
 }
