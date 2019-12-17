@@ -14,7 +14,18 @@
 		043D64DB23A964A2002AD2DC /* MoveAndGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 043D64D923A964A2002AD2DC /* MoveAndGo.xcdatamodeld */; };
 		043D64DD23A964A5002AD2DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043D64DC23A964A5002AD2DC /* Assets.xcassets */; };
 		043D64E023A964A5002AD2DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D64DE23A964A5002AD2DC /* LaunchScreen.storyboard */; };
+		043D651A23A96BF3002AD2DC /* MoveAndGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D651923A96BF3002AD2DC /* MoveAndGoTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043D651C23A96BF3002AD2DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043D64C523A964A2002AD2DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043D64CC23A964A2002AD2DC;
+			remoteInfo = MoveAndGo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		043D64CD23A964A2002AD2DC /* MoveAndGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveAndGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +37,20 @@
 		043D64DC23A964A5002AD2DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043D64DF23A964A5002AD2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043D64E123A964A5002AD2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D651723A96BF3002AD2DC /* MoveAndGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveAndGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D651923A96BF3002AD2DC /* MoveAndGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveAndGoTests.swift; sourceTree = "<group>"; };
+		043D651B23A96BF3002AD2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		043D64CA23A964A2002AD2DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D651423A96BF3002AD2DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				043D64CF23A964A2002AD2DC /* MoveAndGo */,
+				043D651823A96BF3002AD2DC /* MoveAndGoTests */,
 				043D64CE23A964A2002AD2DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				043D64CD23A964A2002AD2DC /* MoveAndGo.app */,
+				043D651723A96BF3002AD2DC /* MoveAndGoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,14 +83,55 @@
 			children = (
 				043D64D023A964A2002AD2DC /* AppDelegate.swift */,
 				043D64D223A964A2002AD2DC /* SceneDelegate.swift */,
-				043D64D423A964A2002AD2DC /* ViewController.swift */,
-				043D64D623A964A2002AD2DC /* Main.storyboard */,
-				043D64DC23A964A5002AD2DC /* Assets.xcassets */,
-				043D64DE23A964A5002AD2DC /* LaunchScreen.storyboard */,
 				043D64E123A964A5002AD2DC /* Info.plist */,
 				043D64D923A964A2002AD2DC /* MoveAndGo.xcdatamodeld */,
+				043D651223A96B9C002AD2DC /* Model */,
+				043D651023A96B8B002AD2DC /* View */,
+				043D652123A96C71002AD2DC /* Controllers */,
+				043D652223A96C93002AD2DC /* Resources */,
 			);
 			path = MoveAndGo;
+			sourceTree = "<group>";
+		};
+		043D651023A96B8B002AD2DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043D64D623A964A2002AD2DC /* Main.storyboard */,
+				043D64DE23A964A5002AD2DC /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		043D651223A96B9C002AD2DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		043D651823A96BF3002AD2DC /* MoveAndGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				043D651923A96BF3002AD2DC /* MoveAndGoTests.swift */,
+				043D651B23A96BF3002AD2DC /* Info.plist */,
+			);
+			path = MoveAndGoTests;
+			sourceTree = "<group>";
+		};
+		043D652123A96C71002AD2DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				043D64D423A964A2002AD2DC /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		043D652223A96C93002AD2DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				043D64DC23A964A5002AD2DC /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +154,24 @@
 			productReference = 043D64CD23A964A2002AD2DC /* MoveAndGo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		043D651623A96BF3002AD2DC /* MoveAndGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D651E23A96BF3002AD2DC /* Build configuration list for PBXNativeTarget "MoveAndGoTests" */;
+			buildPhases = (
+				043D651323A96BF3002AD2DC /* Sources */,
+				043D651423A96BF3002AD2DC /* Frameworks */,
+				043D651523A96BF3002AD2DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043D651D23A96BF3002AD2DC /* PBXTargetDependency */,
+			);
+			name = MoveAndGoTests;
+			productName = MoveAndGoTests;
+			productReference = 043D651723A96BF3002AD2DC /* MoveAndGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +184,10 @@
 				TargetAttributes = {
 					043D64CC23A964A2002AD2DC = {
 						CreatedOnToolsVersion = 11.2.1;
+					};
+					043D651623A96BF3002AD2DC = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 043D64CC23A964A2002AD2DC;
 					};
 				};
 			};
@@ -119,6 +205,7 @@
 			projectRoot = "";
 			targets = (
 				043D64CC23A964A2002AD2DC /* MoveAndGo */,
+				043D651623A96BF3002AD2DC /* MoveAndGoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +218,13 @@
 				043D64E023A964A5002AD2DC /* LaunchScreen.storyboard in Resources */,
 				043D64DD23A964A5002AD2DC /* Assets.xcassets in Resources */,
 				043D64D823A964A2002AD2DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043D651523A96BF3002AD2DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +242,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		043D651323A96BF3002AD2DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D651A23A96BF3002AD2DC /* MoveAndGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043D651D23A96BF3002AD2DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043D64CC23A964A2002AD2DC /* MoveAndGo */;
+			targetProxy = 043D651C23A96BF3002AD2DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		043D64D623A964A2002AD2DC /* Main.storyboard */ = {
@@ -320,6 +430,46 @@
 			};
 			name = Release;
 		};
+		043D651F23A96BF3002AD2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSL65SU6PD;
+				INFOPLIST_FILE = MoveAndGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EduardoJordan.com.MoveAndGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveAndGo.app/MoveAndGo";
+			};
+			name = Debug;
+		};
+		043D652023A96BF3002AD2DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSL65SU6PD;
+				INFOPLIST_FILE = MoveAndGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EduardoJordan.com.MoveAndGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveAndGo.app/MoveAndGo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -337,6 +487,15 @@
 			buildConfigurations = (
 				043D64E523A964A5002AD2DC /* Debug */,
 				043D64E623A964A5002AD2DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D651E23A96BF3002AD2DC /* Build configuration list for PBXNativeTarget "MoveAndGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D651F23A96BF3002AD2DC /* Debug */,
+				043D652023A96BF3002AD2DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
