@@ -29,12 +29,10 @@ class MoveAndGoTests: XCTestCase {
             
             for element in locations{
                 XCTAssertNotNil(element.name)
-                XCTAssertNotNil(element.name)
+                XCTAssertNotNil(element.companyZoneId)
                 XCTAssertNotNil(element.x)
                 XCTAssertNotNil(element.y)
             }
-            
-            
         }catch{
             XCTFail()
         }

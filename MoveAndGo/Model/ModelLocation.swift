@@ -9,21 +9,21 @@
 import Foundation
 
 
-struct DataLocation {
+struct ModelLocation {
     let name: String
     let companyZoneId: Int
     let x:Double
     let y:Double
     
-    //    init(name: String, companyZoneId:Int, x:Double, y:Double){
-    //        self.name = name
-    //        self.companyZoneId = companyZoneId
-    //        self.x = x
-    //        self.y = y
-    //    }
+        init(name: String, companyZoneId:Int, x:Double, y:Double){
+            self.name = name
+            self.companyZoneId = companyZoneId
+            self.x = x
+            self.y = y
+        }
 }
 
-extension DataLocation: Decodable {
+extension ModelLocation: Decodable {
     enum CodingKeys: String, CodingKey {
         case name
         case companyZoneId
@@ -41,3 +41,4 @@ extension DataLocation: Decodable {
     }
     
 }
+
