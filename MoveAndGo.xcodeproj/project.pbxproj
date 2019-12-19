@@ -20,6 +20,13 @@
 		043D652D23A97CCB002AD2DC /* dataJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 043D652C23A97CCA002AD2DC /* dataJson.json */; };
 		043D652E23A97CCB002AD2DC /* dataJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 043D652C23A97CCA002AD2DC /* dataJson.json */; };
 		043D653A23AA8052002AD2DC /* DataLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D653923AA8052002AD2DC /* DataLocation.swift */; };
+		043D654723ABA6CE002AD2DC /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 043D654023ABA6CE002AD2DC /* bus.png */; };
+		043D654823ABA6CE002AD2DC /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 043D654123ABA6CE002AD2DC /* car.png */; };
+		043D654923ABA6CE002AD2DC /* moto.png in Resources */ = {isa = PBXBuildFile; fileRef = 043D654223ABA6CE002AD2DC /* moto.png */; };
+		043D654A23ABA6CE002AD2DC /* MoveGoLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 043D654323ABA6CE002AD2DC /* MoveGoLogo.png */; };
+		043D654B23ABA6CE002AD2DC /* patinete.png in Resources */ = {isa = PBXBuildFile; fileRef = 043D654423ABA6CE002AD2DC /* patinete.png */; };
+		043D654C23ABA6CE002AD2DC /* drone.png in Resources */ = {isa = PBXBuildFile; fileRef = 043D654523ABA6CE002AD2DC /* drone.png */; };
+		043D654D23ABA6CE002AD2DC /* Bici.png in Resources */ = {isa = PBXBuildFile; fileRef = 043D654623ABA6CE002AD2DC /* Bici.png */; };
 		71BCA737807C34989BA22BD6 /* Pods_MoveAndGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061D58D50A664F5427C03045 /* Pods_MoveAndGo.framework */; };
 		7D21CE5417FDEBB00EA35410 /* Pods_MoveAndGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08D239A2D3C20B6AE98EB71 /* Pods_MoveAndGoTests.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +57,13 @@
 		043D652323A96D46002AD2DC /* ModelLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLocation.swift; sourceTree = "<group>"; };
 		043D652C23A97CCA002AD2DC /* dataJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataJson.json; sourceTree = "<group>"; };
 		043D653923AA8052002AD2DC /* DataLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLocation.swift; sourceTree = "<group>"; };
+		043D654023ABA6CE002AD2DC /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
+		043D654123ABA6CE002AD2DC /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		043D654223ABA6CE002AD2DC /* moto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moto.png; sourceTree = "<group>"; };
+		043D654323ABA6CE002AD2DC /* MoveGoLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoveGoLogo.png; sourceTree = "<group>"; };
+		043D654423ABA6CE002AD2DC /* patinete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patinete.png; sourceTree = "<group>"; };
+		043D654523ABA6CE002AD2DC /* drone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drone.png; sourceTree = "<group>"; };
+		043D654623ABA6CE002AD2DC /* Bici.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bici.png; sourceTree = "<group>"; };
 		061D58D50A664F5427C03045 /* Pods_MoveAndGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveAndGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CFDCE3204F6BC5FA02AED8 /* Pods-MoveAndGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveAndGo.debug.xcconfig"; path = "Target Support Files/Pods-MoveAndGo/Pods-MoveAndGo.debug.xcconfig"; sourceTree = "<group>"; };
 		51E6A6B2FA91505FECAB4E5E /* Pods-MoveAndGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveAndGo.release.xcconfig"; path = "Target Support Files/Pods-MoveAndGo/Pods-MoveAndGo.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +124,7 @@
 				043D651223A96B9C002AD2DC /* Model */,
 				043D651023A96B8B002AD2DC /* View */,
 				043D652123A96C71002AD2DC /* Controllers */,
+				043D653F23ABA667002AD2DC /* Resources */,
 			);
 			path = MoveAndGo;
 			sourceTree = "<group>";
@@ -163,6 +178,20 @@
 				043D653923AA8052002AD2DC /* DataLocation.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		043D653F23ABA667002AD2DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				043D654623ABA6CE002AD2DC /* Bici.png */,
+				043D654023ABA6CE002AD2DC /* bus.png */,
+				043D654123ABA6CE002AD2DC /* car.png */,
+				043D654523ABA6CE002AD2DC /* drone.png */,
+				043D654223ABA6CE002AD2DC /* moto.png */,
+				043D654323ABA6CE002AD2DC /* MoveGoLogo.png */,
+				043D654423ABA6CE002AD2DC /* patinete.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		6EB80B60B3B054A7F696B4F4 /* Frameworks */ = {
@@ -269,10 +298,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043D654D23ABA6CE002AD2DC /* Bici.png in Resources */,
+				043D654C23ABA6CE002AD2DC /* drone.png in Resources */,
+				043D654823ABA6CE002AD2DC /* car.png in Resources */,
+				043D654923ABA6CE002AD2DC /* moto.png in Resources */,
+				043D654723ABA6CE002AD2DC /* bus.png in Resources */,
 				043D64E023A964A5002AD2DC /* LaunchScreen.storyboard in Resources */,
 				043D652D23A97CCB002AD2DC /* dataJson.json in Resources */,
 				043D64DD23A964A5002AD2DC /* Assets.xcassets in Resources */,
 				043D64D823A964A2002AD2DC /* Main.storyboard in Resources */,
+				043D654A23ABA6CE002AD2DC /* MoveGoLogo.png in Resources */,
+				043D654B23ABA6CE002AD2DC /* patinete.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
