@@ -31,9 +31,34 @@ class ViewController: UIViewController {
                 for index in 0..<self.locData.count {
                     let marker = GMSMarker()
                     marker.position = CLLocationCoordinate2D(latitude: self.locData[index].y, longitude: self.locData[index].x)
-                    marker.title = "Id: \(self.locData[index].name)"
-                    marker.snippet = "Company: \(self.locData[index].companyZoneId)"
-                    // GMSMarker.markerImage(with: .blue)
+                    marker.title = "\(self.locData[index].name)"
+         
+                    if self.locData[index].companyZoneId == 402 {
+                        marker.icon = UIImage(named: "car")
+                        marker.snippet = "Super Car"
+                    } else if  self.locData[index].companyZoneId == 378 {
+                        marker.icon = UIImage(named: "Bici")
+                        marker.snippet = "Happy Bici"
+                    } else if  self.locData[index].companyZoneId == 382{
+                        marker.icon = UIImage(named: "bus")
+                        marker.snippet = "Public Bus"
+                    } else if self.locData[index].companyZoneId == 545{
+                        marker.icon = UIImage(named: "drone")
+                        marker.snippet = "Go & Fly"
+                    } else if self.locData[index].companyZoneId == 467{
+                        marker.icon = UIImage(named: "moto")
+                        marker.snippet = "Moto Flash "
+                    } else if self.locData[index].companyZoneId == 473{
+                        marker.icon = UIImage(named: "patinete")
+                        marker.snippet = "One Step"
+                    } else if self.locData[index].companyZoneId == 412{
+                        marker.icon = UIImage(named: "drone")
+                        marker.snippet = "Drone Delivery"
+                    }     else {
+                        marker.icon = UIImage(named: "drone")
+                    }
+                    
+                    marker.setIconSize(scaledToSize: .init(width: 30, height: 30))
                     marker.map = self.MapView
                     
                 }
@@ -41,10 +66,16 @@ class ViewController: UIViewController {
         }
     }
     
-    
-    
 }
-
+extension GMSMarker {
+    func setIconSize(scaledToSize newSize: CGSize) {
+        UIGraphicsBeginImageContextWithOptions(newSize, false, 0.0)
+        icon?.draw(in: CGRect(x: 0, y: 0, width: newSize.width, height: newSize.height))
+        let newImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        icon = newImage
+    }
+}
 
 
 

@@ -25,7 +25,7 @@ func getAllDataLocation( Completion block: @escaping ((NSArray) -> ())){
         }
         if let json = try? JSONDecoder().decode([ModelLocation].self, from: data){
             block(json as NSArray)
-           // locData = json
+           
         } else{
             print ("error: \(error!)")
         }

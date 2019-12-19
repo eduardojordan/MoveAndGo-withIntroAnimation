@@ -14,13 +14,15 @@ struct ModelLocation {
     let companyZoneId: Int
     let x:Double
     let y:Double
+    //let battery?
+    //let licencePlate?
     
-        init(name: String, companyZoneId:Int, x:Double, y:Double){
-            self.name = name
-            self.companyZoneId = companyZoneId
-            self.x = x
-            self.y = y
-        }
+    init(name: String, companyZoneId:Int, x:Double, y:Double){
+        self.name = name
+        self.companyZoneId = companyZoneId
+        self.x = x
+        self.y = y
+    }
 }
 
 extension ModelLocation: Decodable {
