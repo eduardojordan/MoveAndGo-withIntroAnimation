@@ -21,46 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class GMSMapView;
 @class GMSMarker;
-
-@protocol GMUCluster;
 @protocol GMUClusterIconGenerator;
-@protocol GMUClusterRenderer;
-
-/**
- * Delegate for id<GMUClusterRenderer> to provide extra functionality to the default
- * renderer.
- */
-@protocol GMUClusterRendererDelegate<NSObject>
-
-@optional
-
-/**
- * Returns a marker for an |object|. The |object| can be either an id<GMUCluster>
- * or an id<GMUClusterItem>. Use this delegate to control of the life cycle of
- * the marker. Any properties set on the returned marker will be honoured except
- * for: .position, .icon, .groundAnchor, .zIndex and .userData. To customize
- * these properties use renderer:willRenderMarker.
- * Note that changing a marker's position is not recommended because it will
- * interfere with the marker animation.
- */
-- (nullable GMSMarker *)renderer:(id<GMUClusterRenderer>)renderer markerForObject:(id)object;
-
-/**
- * Raised when a marker (for a cluster or an item) is about to be added to the map.
- * Use the marker.userData property to check whether it is a cluster marker or an
- * item marker.
- */
-- (void)renderer:(id<GMUClusterRenderer>)renderer willRenderMarker:(GMSMarker *)marker;
-
-/**
- * Raised when a marker (for a cluster or an item) has just been added to the map
- * and animation has been added.
- * Use the marker.userData property to check whether it is a cluster marker or an
- * item marker.
- */
-- (void)renderer:(id<GMUClusterRenderer>)renderer didRenderMarker:(GMSMarker *)marker;
-
-@end
 
 /**
  * Default cluster renderer which shows clusters as markers with specialized icons.
@@ -94,22 +55,7 @@ NS_ASSUME_NONNULL_BEGIN
  * should add up however.
  *
  * Default to YES.
- */
-@property(nonatomic) BOOL animatesClusters;
-
-/**
- * Allows setting a zIndex value for the clusters.  This becomes useful
- * when using multiple cluster data sets on the map and require a predictable
- * way of displaying multiple sets with a predictable layering order.
- *
- * If no specific zIndex is not specified during the initialization, the
- * default zIndex is '1'.  Larger zIndex values are drawn over lower ones
- * similar to the zIndex value of GMSMarkers.
- */
-@property(nonatomic) int zIndex;
-
-/** Sets to further customize the renderer. */
-@property(nonatomic, nullable, weak) id<GMUClusterRendererDelegate> delegate;
+ */@property(nonatomic) BOOL animatesClusters;
 
 - (instancetype)initWithMapView:(GMSMapView *)mapView
            clusterIconGenerator:(id<GMUClusterIconGenerator>)iconGenerator;

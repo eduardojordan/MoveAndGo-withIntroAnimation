@@ -72,7 +72,6 @@ static const double kGMUAnimationDuration = 0.5;  // seconds.
     _renderedClusters = [[NSMutableSet alloc] init];
     _renderedClusterItems = [[NSMutableSet alloc] init];
     _animatesClusters = YES;
-    _zIndex = 1;
   }
   return self;
 }
@@ -248,7 +247,7 @@ static const double kGMUAnimationDuration = 0.5;  // seconds.
 - (void)renderCluster:(id<GMUCluster>)cluster animated:(BOOL)animated {
   float zoom = _mapView.camera.zoom;
   if ([self shouldRenderAsCluster:cluster atZoom:zoom]) {
-    CLLocationCoordinate2D fromPosition = kCLLocationCoordinate2DInvalid;
+    CLLocationCoordinate2D fromPosition;
     if (animated) {
       id<GMUCluster> fromCluster =
           [self overlappingClusterForCluster:cluster itemMap:_itemToOldClusterMap];
@@ -265,7 +264,7 @@ static const double kGMUAnimationDuration = 0.5;  // seconds.
     [_markers addObject:marker];
   } else {
     for (id<GMUClusterItem> item in cluster.items) {
-      CLLocationCoordinate2D fromPosition = kCLLocationCoordinate2DInvalid;
+      CLLocationCoordinate2D fromPosition;
       BOOL shouldAnimate = animated;
       if (shouldAnimate) {
         GMUWrappingDictionaryKey *key = [[GMUWrappingDictionaryKey alloc] initWithObject:item];
@@ -286,14 +285,6 @@ static const double kGMUAnimationDuration = 0.5;  // seconds.
   [_renderedClusters addObject:cluster];
 }
 
-- (GMSMarker *)markerForObject:(id)object {
-  GMSMarker *marker;
-  if ([_delegate respondsToSelector:@selector(renderer:markerForObject:)]) {
-    marker = [_delegate renderer:self markerForObject:object];
-  }
-  return marker ?: [[GMSMarker alloc] init];
-}
-
 // Returns a marker at final position of |position| with attached |userData|.
 // If animated is YES, animates from the closest point from |points|.
 - (GMSMarker *)markerWithPosition:(CLLocationCoordinate2D)position
@@ -301,18 +292,12 @@ static const double kGMUAnimationDuration = 0.5;  // seconds.
                          userData:(id)userData
                       clusterIcon:(UIImage *)clusterIcon
                          animated:(BOOL)animated {
-  GMSMarker *marker = [self markerForObject:userData];
   CLLocationCoordinate2D initialPosition = animated ? from : position;
-  marker.position = initialPosition;
+  GMSMarker *marker = [GMSMarker markerWithPosition:initialPosition];
   marker.userData = userData;
   if (clusterIcon != nil) {
     marker.icon = clusterIcon;
     marker.groundAnchor = CGPointMake(0.5, 0.5);
-  }
-  marker.zIndex = _zIndex;
-
-  if ([_delegate respondsToSelector:@selector(renderer:willRenderMarker:)]) {
-    [_delegate renderer:self willRenderMarker:marker];
   }
   marker.map = _mapView;
 
@@ -322,10 +307,6 @@ static const double kGMUAnimationDuration = 0.5;  // seconds.
     marker.layer.latitude = position.latitude;
     marker.layer.longitude = position.longitude;
     [CATransaction commit];
-  }
-
-  if ([_delegate respondsToSelector:@selector(renderer:didRenderMarker:)]) {
-    [_delegate renderer:self didRenderMarker:marker];
   }
   return marker;
 }

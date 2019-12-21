@@ -9,6 +9,8 @@ target 'MoveAndGo' do
   pod 'GoogleMaps'
   pod 'GooglePlaces'
   pod 'BulletinBoard'
+  pod 'MapLoader', '~> 0.1'
+
 
 
   target 'MoveAndGoTests' do

@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-MoveAndGo/Pods-MoveAndGo-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/BulletinBoard/BLTNBoard.framework
+${BUILT_PRODUCTS_DIR}/CustomMapAnnotation/CustomMapAnnotation.framework

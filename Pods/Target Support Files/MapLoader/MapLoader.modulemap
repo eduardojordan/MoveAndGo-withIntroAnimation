@@ -1,0 +1,6 @@
+framework module MapLoader {
+  umbrella header "MapLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -66,20 +66,6 @@ static NSArray<UIColor *> *kGMUBucketBackgroundColors;
   return self;
 }
 
-- (instancetype)initWithBuckets:(NSArray<NSNumber *> *)buckets
-               backgroundColors:(NSArray<UIColor *> *)backgroundColors {
-  if ((self = [self initWithBuckets:buckets]) != nil) {
-    if (buckets.count != backgroundColors.count) {
-      [NSException raise:NSInvalidArgumentException
-                  format:@"buckets' size: %lu is not equal to backgroundColors' size: %lu",
-                         (unsigned long) buckets.count, (unsigned long) backgroundColors.count];
-    }
-
-    kGMUBucketBackgroundColors = [backgroundColors copy];
-  }
-  return self;
-}
-
 - (instancetype)initWithBuckets:(NSArray<NSNumber *> *)buckets {
   if ((self = [self init]) != nil) {
     if (buckets.count == 0) {
@@ -140,7 +126,7 @@ static NSArray<UIColor *> *kGMUBucketBackgroundColors;
 
   UIFont *font = [UIFont boldSystemFontOfSize:12];
   CGSize size = image.size;
-  UIGraphicsBeginImageContextWithOptions(size, NO, 0.0f);
+  UIGraphicsBeginImageContext(size);
   [image drawInRect:CGRectMake(0, 0, size.width, size.height)];
   CGRect rect = CGRectMake(0, 0, image.size.width, image.size.height);
 

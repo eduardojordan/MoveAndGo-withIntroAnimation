@@ -29,7 +29,9 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         
         let frame: GMSCameraPosition = GMSCameraPosition.camera(withLatitude: 38.711046,
                                                                 longitude: -9.160096,
-                                                                zoom: 15.0)
+                                                                zoom: 16.0)
+       
+        
         MapView.camera = frame
         
         getAllDataLocation() { (json) in
@@ -44,7 +46,6 @@ class ViewController: UIViewController, GMSMapViewDelegate {
                 for index in 0..<self.locData.count {
                     let marker = GMSMarker()
                     marker.position = CLLocationCoordinate2D(latitude: self.locData[index].y, longitude: self.locData[index].x)
-                    //marker.title = "\(self.locData[index].name)"
                     
                     if self.locData[index].companyZoneId == 402 {
                         marker.icon = UIImage(named: "car")
@@ -84,7 +85,8 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         }
     }
     
-    func showDynamicBulletin(dynamicTitle: String,dynamicDescription: String, imageIcon:UIImage) {
+    
+    func showDynamicBulletin(dynamicTitle: String, dynamicDescription: String, imageIcon:UIImage) {
         
         let page = BLTNPageItem(title: dynamicTitle)
         page.descriptionText = dynamicDescription
@@ -105,7 +107,6 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         
         if  marker.snippet == "Super Car" {
             self.showDynamicBulletin(dynamicTitle: "Super Car", dynamicDescription: marker.title!, imageIcon: UIImage(named: "car")!)
-           
         } else if marker.snippet == "Happy Bike"{
             self.showDynamicBulletin(dynamicTitle: "Happy Bike", dynamicDescription: marker.title!, imageIcon: UIImage(named: "Bici")!)
         }else if marker.snippet == "Public Bus"{

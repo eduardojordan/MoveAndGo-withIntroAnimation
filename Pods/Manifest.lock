@@ -1,5 +1,6 @@
 PODS:
   - BulletinBoard (4.1.0)
+  - CustomMapAnnotation (0.1.1)
   - GoogleMaps (3.7.0):
     - GoogleMaps/Maps (= 3.7.0)
   - GoogleMaps/Base (3.7.0)
@@ -7,23 +8,31 @@ PODS:
     - GoogleMaps/Base
   - GooglePlaces (3.7.0):
     - GoogleMaps/Base (= 3.7.0)
+  - MapLoader (0.1.0):
+    - CustomMapAnnotation
+    - GoogleMaps
 
 DEPENDENCIES:
   - BulletinBoard
   - GoogleMaps
   - GooglePlaces
+  - MapLoader (~> 0.1)
 
 SPEC REPOS:
   trunk:
     - BulletinBoard
+    - CustomMapAnnotation
     - GoogleMaps
     - GooglePlaces
+    - MapLoader
 
 SPEC CHECKSUMS:
   BulletinBoard: c774340545b5cfd05a96a89f63b105ecc95c86f9
+  CustomMapAnnotation: 2455c50c6193fc4dd929392c3c5dd8ae1c65e0f9
   GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
   GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
+  MapLoader: 89b36d5068fe8eea339fba63c85f9995e33a74c7
 
-PODFILE CHECKSUM: 6c75241bb5992dbbdaed93cbb2cf8ccc76082b82
+PODFILE CHECKSUM: b7ec9461e113033aa3eb7827ff515466f1ad7f48
 
 COCOAPODS: 1.8.4
