@@ -8,6 +8,8 @@ target 'MoveAndGo' do
   # Pods for MoveAndGo
   pod 'GoogleMaps'
   pod 'GooglePlaces'
+  pod 'BulletinBoard'
+
 
   target 'MoveAndGoTests' do
     inherit! :search_paths

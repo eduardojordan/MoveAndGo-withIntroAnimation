@@ -1,4 +1,5 @@
 PODS:
+  - BulletinBoard (4.1.0)
   - GoogleMaps (3.7.0):
     - GoogleMaps/Maps (= 3.7.0)
   - GoogleMaps/Base (3.7.0)
@@ -8,18 +9,21 @@ PODS:
     - GoogleMaps/Base (= 3.7.0)
 
 DEPENDENCIES:
+  - BulletinBoard
   - GoogleMaps
   - GooglePlaces
 
 SPEC REPOS:
   trunk:
+    - BulletinBoard
     - GoogleMaps
     - GooglePlaces
 
 SPEC CHECKSUMS:
+  BulletinBoard: c774340545b5cfd05a96a89f63b105ecc95c86f9
   GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
   GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
 
-PODFILE CHECKSUM: 6367ea11c704b75f07914d05e49fd735d6ef5bcc
+PODFILE CHECKSUM: 6c75241bb5992dbbdaed93cbb2cf8ccc76082b82
 
 COCOAPODS: 1.8.4
