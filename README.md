@@ -8,7 +8,7 @@ MVC
 Git
 
 
-![Screenshot](captura1.png)
-![Screenshot](captura2.png)
-![Screenshot](captura3.png)
-![Screenshot](captura4.png)
+![Screenshot](capture1.png)
+![Screenshot](capture2.png)
+![Screenshot](capture3.png)
+![Screenshot](capture4.png)
