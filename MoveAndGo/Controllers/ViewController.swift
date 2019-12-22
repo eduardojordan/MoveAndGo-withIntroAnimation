@@ -10,9 +10,10 @@ import UIKit
 import GoogleMaps
 import BLTNBoard
 
-class ViewController: UIViewController, GMSMapViewDelegate {
+class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegate {
     
     var locData = [ModelLocation]()
+    var locationManager = CLLocationManager()
     
     lazy var bulletinManager: BLTNItemManager = {
         let rootItem: BLTNPageItem = BLTNPageItem(title: "ALGO")
@@ -26,6 +27,10 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         super.viewDidLoad()
         
         MapView.delegate = self
+        MapView.isMyLocationEnabled = true
+        
+        locationManager.delegate = self
+        locationManager.startUpdatingLocation()
         
         let frame: GMSCameraPosition = GMSCameraPosition.camera(withLatitude: 38.711046,
                                                                 longitude: -9.160096,
@@ -122,6 +127,19 @@ class ViewController: UIViewController, GMSMapViewDelegate {
         }
         
         return true
+    }
+    
+    private func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+
+        let location = locations.last
+
+        let camera = GMSCameraPosition.camera(withLatitude: (location?.coordinate.latitude)!, longitude: (location?.coordinate.longitude)!, zoom: 17.0)
+
+        self.MapView?.animate(to: camera)
+
+        //Finally stop updating location otherwise it will come again and again in this delegate
+        self.locationManager.stopUpdatingLocation()
+
     }
 }
 
