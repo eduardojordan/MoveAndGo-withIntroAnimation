@@ -10,10 +10,11 @@ import UIKit
 import GoogleMaps
 import BLTNBoard
 
-class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegate {
+class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegate{
     
     var locData = [ModelLocation]()
     var locationManager = CLLocationManager()
+
     
     lazy var bulletinManager: BLTNItemManager = {
         let rootItem: BLTNPageItem = BLTNPageItem(title: "ALGO")
@@ -25,6 +26,7 @@ class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDel
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         MapView.delegate = self
         MapView.isMyLocationEnabled = true
@@ -41,6 +43,7 @@ class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDel
         
         getAllDataLocation() { (json) in
             self.locData = json as! [ModelLocation]
+            
             
             let page = BLTNPageItem(title: "Push Notifications")
             page.image = UIImage(named: "car")
@@ -137,7 +140,7 @@ class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDel
 
         self.MapView?.animate(to: camera)
 
-        //Finally stop updating location otherwise it will come again and again in this delegate
+
         self.locationManager.stopUpdatingLocation()
 
     }

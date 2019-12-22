@@ -357,23 +357,23 @@ open class LoadingButton: UIButton {
 // MARK: - Observer
 fileprivate extension LoadingButton {
 
-    fileprivate func addObservers() {
+    func addObservers() {
         self.addObserver(forKeyPath: "self.state")
         self.addObserver(forKeyPath: "self.selected")
         self.addObserver(forKeyPath: "self.highlighted")
     }
 
-    fileprivate func removeObservers() {
+    func removeObservers() {
         self.removeObserver(forKeyPath: "self.state")
         self.removeObserver(forKeyPath: "self.selected")
         self.removeObserver(forKeyPath: "self.highlighted")
     }
 
-    fileprivate func addObserver(forKeyPath keyPath:String) {
+    func addObserver(forKeyPath keyPath:String) {
         self.addObserver(self, forKeyPath:keyPath, options: ([NSKeyValueObservingOptions.initial, NSKeyValueObservingOptions.new]), context: nil)
     }
     
-    fileprivate func removeObserver(forKeyPath keyPath: String!) {
+    func removeObserver(forKeyPath keyPath: String!) {
         self.removeObserver(self, forKeyPath: keyPath)
     }
 }

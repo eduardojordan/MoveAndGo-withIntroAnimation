@@ -16,6 +16,7 @@
 				D42315111F400C0605ACCD6B5CAF2178 /* PBXTargetDependency */,
 			);
 			name = GooglePlaces;
+			productName = GooglePlaces;
 		};
 		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
 			isa = PBXAggregateTarget;
@@ -25,6 +26,7 @@
 			dependencies = (
 			);
 			name = GoogleMaps;
+			productName = GoogleMaps;
 		};
 /* End PBXAggregateTarget section */
 
@@ -241,15 +243,15 @@
 
 /* Begin PBXFileReference section */
 		01069300FD34663FDCBFD5F7CFDECBD9 /* BulletinBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BulletinBoard.modulemap; sourceTree = "<group>"; };
-		03F1B8D006456F4408AC131CD7BCF1F1 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = Resources/Strings/tr.lproj; sourceTree = "<group>"; };
+		03F1B8D006456F4408AC131CD7BCF1F1 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = tr.lproj; path = Resources/Strings/tr.lproj; sourceTree = "<group>"; };
 		0812182260407CD1CCAF3DD5970976AA /* UIView+RoundedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+RoundedView.swift"; path = "Sources/Support/Views/Internal/ContinuousCorners/UIView+RoundedView.swift"; sourceTree = "<group>"; };
 		0855A8EC0F6DC17E8B1F93988B045B46 /* Pods-MoveAndGo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoveAndGo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		09900D74F5DB21E109494D6BAED0C333 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		0CDA59AAC0AEA458567750C7094EE72C /* MapLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapLoader-dummy.m"; sourceTree = "<group>"; };
 		0D9C44B19CEEED4D645A09AEED467605 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		0E1770438873F6F31CCCB5EAC64FF245 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = Resources/Strings/de.lproj; sourceTree = "<group>"; };
+		0E1770438873F6F31CCCB5EAC64FF245 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = Resources/Strings/de.lproj; sourceTree = "<group>"; };
 		0E582847324EE70B6D8DE13457DC2BE3 /* Pods-MoveAndGo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoveAndGo-umbrella.h"; sourceTree = "<group>"; };
-		0EF758BB7E4545149CBECCBAFE72574B /* Pods_MoveAndGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoveAndGo.framework; path = "Pods-MoveAndGo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF758BB7E4545149CBECCBAFE72574B /* Pods_MoveAndGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveAndGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA1318D3F7E2538D18E133047FAFBF0 /* MapLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapLoader.swift; path = MapLoader/MapLoader/MapLoader.swift; sourceTree = "<group>"; };
 		0FE6297D72FF0081D322A5552753AEF6 /* ic_annot5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_annot5.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_annot5.png; sourceTree = "<group>"; };
 		10D804C1FF0C6F59A4BA7B1C46083C3B /* BLTNHighlightButtonWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNHighlightButtonWrapper.swift; path = Sources/Support/Views/Public/BLTNHighlightButtonWrapper.swift; sourceTree = "<group>"; };
@@ -258,15 +260,15 @@
 		182535BEBE5D42EEF48A7B4E8772F0FC /* Pods-MoveAndGoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoveAndGoTests-umbrella.h"; sourceTree = "<group>"; };
 		1878D75B9FB57CFF02B3DEEBA407845E /* Pods-MoveAndGo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoveAndGo-acknowledgements.plist"; sourceTree = "<group>"; };
 		193A5A71369E128681B1B1742564D707 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		19CCAC9F065EAD6AC2FBE2FAD3B91D64 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Resources/Strings/zh-Hans.lproj"; sourceTree = "<group>"; };
+		19CCAC9F065EAD6AC2FBE2FAD3B91D64 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "Resources/Strings/zh-Hans.lproj"; sourceTree = "<group>"; };
 		1A38E0E9C100EF15F9599372D893AEAA /* BLTNItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNItem.h; path = Sources/Models/BLTNItem.h; sourceTree = "<group>"; };
 		1D16C3ACDF7924D656F104547250D7D9 /* BLTNActionItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLTNActionItem.m; path = Sources/Models/BLTNActionItem.m; sourceTree = "<group>"; };
 		1D5FC569C5C9C3E349E4DD09C8F0210D /* Pods-MoveAndGo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoveAndGo-dummy.m"; sourceTree = "<group>"; };
 		1DCB5139E80F30C0F2BC35E8932A39E7 /* ic_charging.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_charging.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_charging.png; sourceTree = "<group>"; };
 		1F7D46FB51FD89BA80822F268D46561C /* CloseGlyph@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "CloseGlyph@2x.png"; path = "Resources/CloseGlyph@2x.png"; sourceTree = "<group>"; };
 		1FD629A284C0A1F5692FF1C66F940DDF /* Pods-MoveAndGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoveAndGo.debug.xcconfig"; sourceTree = "<group>"; };
-		21DE4E7B8DD59709C96AF83E0E69473C /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ms.lproj; path = Resources/Strings/ms.lproj; sourceTree = "<group>"; };
-		22438A2F1B3B47FD6330B908E4DA6DB2 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = Resources/Strings/it.lproj; sourceTree = "<group>"; };
+		21DE4E7B8DD59709C96AF83E0E69473C /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ms.lproj; path = Resources/Strings/ms.lproj; sourceTree = "<group>"; };
+		22438A2F1B3B47FD6330B908E4DA6DB2 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = Resources/Strings/it.lproj; sourceTree = "<group>"; };
 		24C71DB9294ADDE5C9A363571E01EAFC /* ResourceBundle-CustomMapAnnotation-ViewNibs-CustomMapAnnotation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CustomMapAnnotation-ViewNibs-CustomMapAnnotation-Info.plist"; sourceTree = "<group>"; };
 		25B0060F5A3C9EA56A6583F07D7C941C /* ic_stop.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_stop.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_stop.png; sourceTree = "<group>"; };
 		26732CFF5E3B9AE2CB754CD869502F93 /* ic_annot2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_annot2.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_annot2.png; sourceTree = "<group>"; };
@@ -276,17 +278,17 @@
 		2FC40B459A1FB7BD71D1B6F293D44360 /* CustomMapAnnotation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CustomMapAnnotation-Info.plist"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		342209C1EDFD0ECD86350977CC90D4B6 /* BulletinBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BulletinBoard-Info.plist"; sourceTree = "<group>"; };
-		3444C15869B8741AD39827A4BBDAC03D /* el.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = el.lproj; path = Resources/Strings/el.lproj; sourceTree = "<group>"; };
+		3444C15869B8741AD39827A4BBDAC03D /* el.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = el.lproj; path = Resources/Strings/el.lproj; sourceTree = "<group>"; };
 		349B09DE965653BA0F5EB673694E302A /* Cluster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Cluster.h; path = MapLoader/MapLoader/Cluster/Cluster.h; sourceTree = "<group>"; };
 		365C8F1658A1A9F4C25C3D46CBB04579 /* Annotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Annotation.swift; path = MapLoader/MapLoader/Cluster/Annotation.swift; sourceTree = "<group>"; };
 		3AB3B45D357F27EAE07DCEE732B31BFB /* AnimationChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationChain.swift; path = Sources/Support/Animations/AnimationChain.swift; sourceTree = "<group>"; };
-		3B00A933C41ECB13282CB32905ADE8AC /* Pods_MoveAndGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoveAndGoTests.framework; path = "Pods-MoveAndGoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B00A933C41ECB13282CB32905ADE8AC /* Pods_MoveAndGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveAndGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C750162259D0E7EAB0ABB5CC3BC1D55 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = MapLoader/MapLoader/Cluster/Extensions.swift; sourceTree = "<group>"; };
 		3D3618B120C21304A7522E9FDE277FD4 /* Highlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Highlighter.swift; path = Sources/Support/Views/Internal/Highlighter.swift; sourceTree = "<group>"; };
-		3DD2A2D1DE9AAE476C5535EAA58A67CB /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = Resources/Strings/ko.lproj; sourceTree = "<group>"; };
+		3DD2A2D1DE9AAE476C5535EAA58A67CB /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = Resources/Strings/ko.lproj; sourceTree = "<group>"; };
 		3F2B7A0CB8F231E9FF822B496DDCE950 /* CloseGlyph@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "CloseGlyph@3x.png"; path = "Resources/CloseGlyph@3x.png"; sourceTree = "<group>"; };
 		41C22186E0DE103A6B5E1A2970064FCB /* Pods-MoveAndGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoveAndGoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		42C2EDA8462D8B30684ED3B7EBD981C0 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "Resources/Strings/zh-Hant.lproj"; sourceTree = "<group>"; };
+		42C2EDA8462D8B30684ED3B7EBD981C0 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "Resources/Strings/zh-Hant.lproj"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		453DC5400538E00C2FDFAE3368D3E65B /* CustomMapAnnotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomMapAnnotation-dummy.m"; sourceTree = "<group>"; };
 		45D36B079025D395B9C13910B31FE535 /* Pods-MoveAndGoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoveAndGoTests-Info.plist"; sourceTree = "<group>"; };
@@ -295,11 +297,11 @@
 		4A8624DAD8585549BC29876C772B520C /* UIView+SafeAnchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SafeAnchors.swift"; path = "Sources/Support/Helpers/UIView+SafeAnchors.swift"; sourceTree = "<group>"; };
 		4F9D4046FED9DAC780CBBF760FD1608B /* ic_personal.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_personal.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_personal.png; sourceTree = "<group>"; };
 		51D6779BD957A22005EAA48737AC2CE1 /* BulletinPresentationAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinPresentationAnimationController.swift; path = Sources/Support/Animations/BulletinPresentationAnimationController.swift; sourceTree = "<group>"; };
-		52CC8CBBA1D9FC862C090643C7F41002 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = Resources/Strings/en.lproj; sourceTree = "<group>"; };
-		53718AD48E717541B8A3FBD770752311 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = Resources/Strings/id.lproj; sourceTree = "<group>"; };
+		52CC8CBBA1D9FC862C090643C7F41002 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Resources/Strings/en.lproj; sourceTree = "<group>"; };
+		53718AD48E717541B8A3FBD770752311 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = id.lproj; path = Resources/Strings/id.lproj; sourceTree = "<group>"; };
 		53F377F3D8FD3FEDCC3610B97E6E55D4 /* Pods-MoveAndGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoveAndGoTests.release.xcconfig"; sourceTree = "<group>"; };
-		545C3D107661A9AD387B367981F886C4 /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sk.lproj; path = Resources/Strings/sk.lproj; sourceTree = "<group>"; };
-		548A98EBBB79B34DE5B6A73E09167483 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fi.lproj; path = Resources/Strings/fi.lproj; sourceTree = "<group>"; };
+		545C3D107661A9AD387B367981F886C4 /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sk.lproj; path = Resources/Strings/sk.lproj; sourceTree = "<group>"; };
+		548A98EBBB79B34DE5B6A73E09167483 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fi.lproj; path = Resources/Strings/fi.lproj; sourceTree = "<group>"; };
 		54E627DA5AD29C72B0823346B5724A78 /* ic_record.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_record.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_record.png; sourceTree = "<group>"; };
 		5593DD530B833C202600F88A134F05C8 /* BulletinBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BulletinBoard-dummy.m"; sourceTree = "<group>"; };
 		55B24D2878A5C9BBD3A4699172C93611 /* ActionSheetButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetButton.swift; path = CustomMapAnnotation/CustomMapAnnotation/ActionSheetButton.swift; sourceTree = "<group>"; };
@@ -318,23 +320,23 @@
 		643215E7B7C695D1BC38037D350F2D8C /* CustomMapAnnotation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomMapAnnotation-prefix.pch"; sourceTree = "<group>"; };
 		67004893C581C5AF5E730791A2CC16D9 /* CustomMapAnnotation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomMapAnnotation.xcconfig; sourceTree = "<group>"; };
 		6B6128847758FB07C2F49AB3E8EB84B3 /* GooglePlaces.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.xcconfig; sourceTree = "<group>"; };
-		6CBCDB4416B9F2F94D7FBF42E6228DA5 /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ro.lproj; path = Resources/Strings/ro.lproj; sourceTree = "<group>"; };
+		6CBCDB4416B9F2F94D7FBF42E6228DA5 /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ro.lproj; path = Resources/Strings/ro.lproj; sourceTree = "<group>"; };
 		6CC8BEB0349940F06F930B46F2C71263 /* MapLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapLoader-prefix.pch"; sourceTree = "<group>"; };
-		6D929F31156E20851DF97C871DF2CA93 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = Resources/Strings/nl.lproj; sourceTree = "<group>"; };
-		6DF86CDA7BD1A57E9D658098EAEB92E2 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = cs.lproj; path = Resources/Strings/cs.lproj; sourceTree = "<group>"; };
+		6D929F31156E20851DF97C871DF2CA93 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = Resources/Strings/nl.lproj; sourceTree = "<group>"; };
+		6DF86CDA7BD1A57E9D658098EAEB92E2 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = cs.lproj; path = Resources/Strings/cs.lproj; sourceTree = "<group>"; };
 		6E35E7675980FBBE7C81E7D34B5F7558 /* Pods-MoveAndGo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoveAndGo-Info.plist"; sourceTree = "<group>"; };
-		731B983C488EFC19573925F97EC28BE9 /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = da.lproj; path = Resources/Strings/da.lproj; sourceTree = "<group>"; };
-		739A0B300AB00FA3B5A783AE6C31586F /* MapLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapLoader.framework; path = MapLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		731B983C488EFC19573925F97EC28BE9 /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = da.lproj; path = Resources/Strings/da.lproj; sourceTree = "<group>"; };
+		739A0B300AB00FA3B5A783AE6C31586F /* MapLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A9608794B11DE2B8A95E6C09073FDB /* StyledAnnotationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StyledAnnotationView.swift; path = CustomMapAnnotation/CustomMapAnnotation/StyledAnnotationView.swift; sourceTree = "<group>"; };
 		753BF17557FF66AC4C45814F4A77819F /* BulletinBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BulletinBoard-umbrella.h"; sourceTree = "<group>"; };
 		78CC23CA43BF83D6843483F7E8B1D457 /* BLTNPageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNPageItem.h; path = Sources/Models/BLTNPageItem.h; sourceTree = "<group>"; };
 		7C28734B71CECCFD39F377EDB4F389F6 /* BLTNItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNItemAppearance.swift; path = Sources/Appearance/BLTNItemAppearance.swift; sourceTree = "<group>"; };
 		7C464138BB564128A92243B9AFBCC24F /* ic_dislike.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_dislike.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_dislike.png; sourceTree = "<group>"; };
-		7CC77C43A0034C882D5783974088A28D /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = Resources/Strings/ru.lproj; sourceTree = "<group>"; };
-		7CF69EDA9AD41682898EFEB638F8AE34 /* CustomMapAnnotation-ViewNibs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CustomMapAnnotation-ViewNibs.bundle"; path = "CustomMapAnnotation-CustomMapAnnotation-ViewNibs.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EB1332833E2B8D93BCBC64A18E91697 /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ca.lproj; path = Resources/Strings/ca.lproj; sourceTree = "<group>"; };
+		7CC77C43A0034C882D5783974088A28D /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = Resources/Strings/ru.lproj; sourceTree = "<group>"; };
+		7CF69EDA9AD41682898EFEB638F8AE34 /* CustomMapAnnotation-ViewNibs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CustomMapAnnotation-ViewNibs.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB1332833E2B8D93BCBC64A18E91697 /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ca.lproj; path = Resources/Strings/ca.lproj; sourceTree = "<group>"; };
 		81E7D8E95DC60511B772166E227225F8 /* QuadTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuadTree.swift; path = MapLoader/MapLoader/Cluster/QuadTree.swift; sourceTree = "<group>"; };
-		81FFF145B137DEC0DE4F8274AD7B6D40 /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hu.lproj; path = Resources/Strings/hu.lproj; sourceTree = "<group>"; };
+		81FFF145B137DEC0DE4F8274AD7B6D40 /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hu.lproj; path = Resources/Strings/hu.lproj; sourceTree = "<group>"; };
 		82EF759DAD6B35044BE45CEE8A783008 /* StyledAnnotationView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StyledAnnotationView.xib; path = CustomMapAnnotation/CustomMapAnnotation/ViewNibs/StyledAnnotationView.xib; sourceTree = "<group>"; };
 		8429F2DB6D1DB7F36DF9EBC7C6C93AC3 /* BLTNBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNBoard.h; path = Sources/BLTNBoard.h; sourceTree = "<group>"; };
 		8B8A092DCD694294482BA7B8DEF17DD9 /* ic_annot3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_annot3.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_annot3.png; sourceTree = "<group>"; };
@@ -343,15 +345,15 @@
 		934F7CAE6601D7640EAD8EA4D387AF5D /* ActionSheetViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetViews.swift; path = CustomMapAnnotation/CustomMapAnnotation/ActionSheetViews.swift; sourceTree = "<group>"; };
 		95B327E909A3BF62A21287215CBDFF28 /* BulletinViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinViewController.swift; path = Sources/Support/BulletinViewController.swift; sourceTree = "<group>"; };
 		9829A86F71F11D5D903B58599167238B /* MapLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MapLoader.h; path = MapLoader/MapLoader/MapLoader.h; sourceTree = "<group>"; };
-		986BB9A89CBF96762B21155219F68B2B /* pt-PT.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "pt-PT.lproj"; path = "Resources/Strings/pt-PT.lproj"; sourceTree = "<group>"; };
-		9A14A88575053D1338F52E1857A326C9 /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nb.lproj; path = Resources/Strings/nb.lproj; sourceTree = "<group>"; };
+		986BB9A89CBF96762B21155219F68B2B /* pt-PT.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "pt-PT.lproj"; path = "Resources/Strings/pt-PT.lproj"; sourceTree = "<group>"; };
+		9A14A88575053D1338F52E1857A326C9 /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nb.lproj; path = Resources/Strings/nb.lproj; sourceTree = "<group>"; };
 		9A5D7631BE89A2E8684043BBD397F9BF /* MapLoader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MapLoader-Info.plist"; sourceTree = "<group>"; };
 		9C098A00D8D4373C47CF9A1FB7ADA608 /* CustomMapAnnotation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomMapAnnotation.modulemap; sourceTree = "<group>"; };
 		9D5448F22B7F367FA67A25C5A561CE5A /* CMAResManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMAResManager.swift; path = CustomMapAnnotation/CustomMapAnnotation/CMAResManager.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DF26A7026C2A13CF724FEEE7CE24414 /* he.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = he.lproj; path = Resources/Strings/he.lproj; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF26A7026C2A13CF724FEEE7CE24414 /* he.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = he.lproj; path = Resources/Strings/he.lproj; sourceTree = "<group>"; };
 		9FC2AF4C1254272F1566D2B086121744 /* MLAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MLAnnotation.swift; path = MapLoader/MapLoader/MLAnnotation.swift; sourceTree = "<group>"; };
-		A0B94D2C7AC1FDFECC933BE2CE5216E5 /* hr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hr.lproj; path = Resources/Strings/hr.lproj; sourceTree = "<group>"; };
+		A0B94D2C7AC1FDFECC933BE2CE5216E5 /* hr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hr.lproj; path = Resources/Strings/hr.lproj; sourceTree = "<group>"; };
 		A2AAD72A5CC8223BD7A9859DCB4C1F23 /* ic_like.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_like.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_like.png; sourceTree = "<group>"; };
 		A2D910C74AABDC750DB8E9C4BFB2C1C8 /* ic_annot4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_annot4.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_annot4.png; sourceTree = "<group>"; };
 		A40E5F6983126535B20DA47135D5E109 /* CMAInfoView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CMAInfoView.xib; path = CustomMapAnnotation/CustomMapAnnotation/ViewNibs/CMAInfoView.xib; sourceTree = "<group>"; };
@@ -362,27 +364,27 @@
 		AC146763B4D789C505914BB84F70C63B /* Pods-MoveAndGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoveAndGo.release.xcconfig"; sourceTree = "<group>"; };
 		ACC9D89415490C3BCD5B033B7DE03A04 /* ClusterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClusterManager.swift; path = MapLoader/MapLoader/Cluster/ClusterManager.swift; sourceTree = "<group>"; };
 		AE7BB4CD41F1C9030A62AAF55FD93285 /* MapLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapLoader.xcconfig; sourceTree = "<group>"; };
-		B124CE15C2E723A156003F4C91415781 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sv.lproj; path = Resources/Strings/sv.lproj; sourceTree = "<group>"; };
-		B236E78A36F21C8123E6B16C78E8F2CD /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = Resources/Strings/pl.lproj; sourceTree = "<group>"; };
+		B124CE15C2E723A156003F4C91415781 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sv.lproj; path = Resources/Strings/sv.lproj; sourceTree = "<group>"; };
+		B236E78A36F21C8123E6B16C78E8F2CD /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = Resources/Strings/pl.lproj; sourceTree = "<group>"; };
 		B459F3E1C6AB419B3D4F2329DE11FEE3 /* UIButton+BackgroundColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+BackgroundColor.swift"; path = "Sources/Support/Helpers/UIButton+BackgroundColor.swift"; sourceTree = "<group>"; };
 		B69F633C026C83F1A7EE9A18E167C73C /* CustomMapAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomMapAnnotation.h; path = CustomMapAnnotation/CustomMapAnnotation/CustomMapAnnotation.h; sourceTree = "<group>"; };
-		B94E6D866B0D9071785F74DE203922BF /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = th.lproj; path = Resources/Strings/th.lproj; sourceTree = "<group>"; };
+		B94E6D866B0D9071785F74DE203922BF /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = th.lproj; path = Resources/Strings/th.lproj; sourceTree = "<group>"; };
 		BB7E2652DEF20770C0785CE001FE5E30 /* ic_crash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_crash.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_crash.png; sourceTree = "<group>"; };
-		BBC8EE670C8351EDCC39CE372FC5F17C /* uk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = uk.lproj; path = Resources/Strings/uk.lproj; sourceTree = "<group>"; };
+		BBC8EE670C8351EDCC39CE372FC5F17C /* uk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = uk.lproj; path = Resources/Strings/uk.lproj; sourceTree = "<group>"; };
 		BCF35A8C828C360AED342279278F28A5 /* BLTNBackgroundViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNBackgroundViewStyle.swift; path = Sources/Appearance/BLTNBackgroundViewStyle.swift; sourceTree = "<group>"; };
 		BD30FB779C30293D07FB7F8EE22531F7 /* ResourceBundle-CustomMapAnnotation-Resources-CustomMapAnnotation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CustomMapAnnotation-Resources-CustomMapAnnotation-Info.plist"; sourceTree = "<group>"; };
-		BDB91408BF1A71F0DD6135D2F0EBCBA6 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = Resources/Strings/fr.lproj; sourceTree = "<group>"; };
+		BDB91408BF1A71F0DD6135D2F0EBCBA6 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = Resources/Strings/fr.lproj; sourceTree = "<group>"; };
 		BF6BCE2980FB0AA5BAFDE2BAB0FE2609 /* ic_pause.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_pause.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_pause.png; sourceTree = "<group>"; };
-		BF9F4C6359EC8C60F0836372814DBD80 /* CustomMapAnnotation-Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CustomMapAnnotation-Resources.bundle"; path = "CustomMapAnnotation-CustomMapAnnotation-Resources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9F4C6359EC8C60F0836372814DBD80 /* CustomMapAnnotation-Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CustomMapAnnotation-Resources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D046AA1FA6750150585AD0C738C650 /* BLTNPageItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLTNPageItem.m; path = Sources/Models/BLTNPageItem.m; sourceTree = "<group>"; };
 		C19F09387129C50E6DEBB909CCBB10A5 /* CustomMapAnnotation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomMapAnnotation-umbrella.h"; sourceTree = "<group>"; };
 		C1AA5A265EB204CFFF58DA5B69C28185 /* ActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicator.swift; path = Sources/Support/Views/Internal/ActivityIndicator.swift; sourceTree = "<group>"; };
 		C2C5F355BB20F2E38C2A2CF7DF13B6F0 /* MapLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapLoader.modulemap; sourceTree = "<group>"; };
 		C3AF34C54341684DF97BC3B88F91CB59 /* ic_annot1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_annot1.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_annot1.png; sourceTree = "<group>"; };
-		C5FC4EC27B0970F708A6473BCFDA3C50 /* BLTNBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLTNBoard.framework; path = BulletinBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6915E18E5F51CCA32E2655342B4EB3B /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "pt-BR.lproj"; path = "Resources/Strings/pt-BR.lproj"; sourceTree = "<group>"; };
-		C810AF20DFA9538DA46631E104657D9C /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = vi.lproj; path = Resources/Strings/vi.lproj; sourceTree = "<group>"; };
-		C84A9C257A86C6B986488072FC708223 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = Resources/Strings/ar.lproj; sourceTree = "<group>"; };
+		C5FC4EC27B0970F708A6473BCFDA3C50 /* BLTNBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLTNBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6915E18E5F51CCA32E2655342B4EB3B /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "pt-BR.lproj"; path = "Resources/Strings/pt-BR.lproj"; sourceTree = "<group>"; };
+		C810AF20DFA9538DA46631E104657D9C /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = vi.lproj; path = Resources/Strings/vi.lproj; sourceTree = "<group>"; };
+		C84A9C257A86C6B986488072FC708223 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ar.lproj; path = Resources/Strings/ar.lproj; sourceTree = "<group>"; };
 		C970CCBF50A87FA38D67EFC34BB6AF5B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		CE356D01A5544DEBC3744F453B430F5C /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Deprecations.swift; sourceTree = "<group>"; };
 		D08BD1AB2B03ECEDF29E6603AC1EBC71 /* ic_hazard.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_hazard.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_hazard.png; sourceTree = "<group>"; };
@@ -390,16 +392,16 @@
 		D31955E6C529E8DD4E918C90D2449CB6 /* ic_constr.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_constr.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_constr.png; sourceTree = "<group>"; };
 		D7F05CBBA0A429CBF5603CF346CE9EBF /* ic_error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_error.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_error.png; sourceTree = "<group>"; };
 		D7FFF9860D1F55D7B712E0E0C4F48EA7 /* BLTNActionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNActionItem.h; path = Sources/Models/BLTNActionItem.h; sourceTree = "<group>"; };
-		D880ED0889BF2310CD6BE10F37DDBE85 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = Resources/Strings/es.lproj; sourceTree = "<group>"; };
+		D880ED0889BF2310CD6BE10F37DDBE85 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = Resources/Strings/es.lproj; sourceTree = "<group>"; };
 		DEDB800C09F4A6984ACF6EF6B2FD8BB3 /* ic_public.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_public.png; path = CustomMapAnnotation/CustomMapAnnotation/Resources/ic_public.png; sourceTree = "<group>"; };
-		DF9842D02F33A85FD965D951A7EE4A66 /* CustomMapAnnotation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomMapAnnotation.framework; path = CustomMapAnnotation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9842D02F33A85FD965D951A7EE4A66 /* CustomMapAnnotation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomMapAnnotation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B57D8F841192E4B8E713CB9CED7775 /* ContinuousMaskLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContinuousMaskLayer.swift; path = Sources/Support/Views/Internal/ContinuousCorners/ContinuousMaskLayer.swift; sourceTree = "<group>"; };
 		E0E340551005445C842FFCB0C5985048 /* BLTNSpacing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNSpacing.swift; path = Sources/Appearance/BLTNSpacing.swift; sourceTree = "<group>"; };
-		E11A652595D0104B33C7C3D5C49207EE /* hi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hi.lproj; path = Resources/Strings/hi.lproj; sourceTree = "<group>"; };
+		E11A652595D0104B33C7C3D5C49207EE /* hi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hi.lproj; path = Resources/Strings/hi.lproj; sourceTree = "<group>"; };
 		E4864B6932C00660E1CEA41F3100DB1E /* BLTNBoardSwiftSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNBoardSwiftSupport.h; path = Sources/Support/BLTNBoardSwiftSupport.h; sourceTree = "<group>"; };
 		E5D2C2A2C02A9C14D2C17EE5D9907D61 /* BLTNInterfaceBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNInterfaceBuilder.swift; path = Sources/Appearance/BLTNInterfaceBuilder.swift; sourceTree = "<group>"; };
 		E70C88F4FDADA3E43F2313CE65D3297C /* BLTNTitleLabelContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNTitleLabelContainer.swift; path = Sources/Support/Views/Public/BLTNTitleLabelContainer.swift; sourceTree = "<group>"; };
-		F019CBDDE3B058E618FE8B3985EB3626 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = Resources/Strings/ja.lproj; sourceTree = "<group>"; };
+		F019CBDDE3B058E618FE8B3985EB3626 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = Resources/Strings/ja.lproj; sourceTree = "<group>"; };
 		F10DDBD5B9E12974B349BD12F3E9753E /* BulletinBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinBackgroundView.swift; path = Sources/Support/Views/Internal/BulletinBackgroundView.swift; sourceTree = "<group>"; };
 		F211A87F510D18EF61B580781D4CE0C3 /* RoundedViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundedViewProtocol.swift; path = Sources/Support/Views/Internal/ContinuousCorners/RoundedViewProtocol.swift; sourceTree = "<group>"; };
 		F6F1679CEB7A4851466C0E10EB982F2F /* MapLoaderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapLoaderProtocol.swift; path = MapLoader/MapLoader/MapLoaderProtocol.swift; sourceTree = "<group>"; };
@@ -513,7 +515,6 @@
 				81E7D8E95DC60511B772166E227225F8 /* QuadTree.swift */,
 				056A223C1D70AD3F99D625508E6F2A94 /* Support Files */,
 			);
-			name = MapLoader;
 			path = MapLoader;
 			sourceTree = "<group>";
 		};
@@ -574,7 +575,6 @@
 				CC54135D2D141AA8AFD7F96F1A9B99F9 /* Maps */,
 				37F0E0F01EAAB0C871DFE3D15B85CBD3 /* Support Files */,
 			);
-			name = GoogleMaps;
 			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
@@ -765,7 +765,6 @@
 				5D7D718FE92DA8B1198F1A39DF161AE2 /* Resources */,
 				2A7048DACFBF657A17271F9698413663 /* Support Files */,
 			);
-			name = BulletinBoard;
 			path = BulletinBoard;
 			sourceTree = "<group>";
 		};
@@ -790,7 +789,6 @@
 				A368466D7DEB6518A397C5BBF5C90D34 /* Resources */,
 				87DDB4232507D0D09C396AFDA47D5E3C /* Support Files */,
 			);
-			name = CustomMapAnnotation;
 			path = CustomMapAnnotation;
 			sourceTree = "<group>";
 		};
@@ -846,7 +844,6 @@
 				43DE7893E5E32E17EC32A3C308B03AC7 /* Resources */,
 				908FD8DE9689A7B31F09E50B2DCD983E /* Support Files */,
 			);
-			name = GooglePlaces;
 			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
@@ -1062,6 +1059,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 6116352A01CD2CB35D07BB973024F0D1 /* Products */;
