@@ -2,12 +2,12 @@
 
 Practica en la que se realiza la llamada de diferentes coordenadas contenidas en un JSON y presentación de informacion detallada al seleccionar un punto.
 
-Xcode 11.2.1
-iOS 13
-TDD
-CocoaPods
-MVC
-Git
+#Xcode 11.2.1
+#iOS 13
+#TDD
+#CocoaPods
+#MVC
+#Git
 
 
 ![Screenshot](capture1.png)
