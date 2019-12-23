@@ -28,6 +28,7 @@
 		043D654C23ABA6CE002AD2DC /* drone.png in Resources */ = {isa = PBXBuildFile; fileRef = 043D654523ABA6CE002AD2DC /* drone.png */; };
 		043D654D23ABA6CE002AD2DC /* Bici.png in Resources */ = {isa = PBXBuildFile; fileRef = 043D654623ABA6CE002AD2DC /* Bici.png */; };
 		043D654F23AC213D002AD2DC /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 043D654E23AC213D002AD2DC /* LOGO.png */; };
+		04F47B4D23B0421700B98ABD /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04F47B4C23B0421700B98ABD /* video.mp4 */; };
 		71BCA737807C34989BA22BD6 /* Pods_MoveAndGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061D58D50A664F5427C03045 /* Pods_MoveAndGo.framework */; };
 		7D21CE5417FDEBB00EA35410 /* Pods_MoveAndGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08D239A2D3C20B6AE98EB71 /* Pods_MoveAndGoTests.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,7 @@
 		043D654523ABA6CE002AD2DC /* drone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drone.png; sourceTree = "<group>"; };
 		043D654623ABA6CE002AD2DC /* Bici.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bici.png; sourceTree = "<group>"; };
 		043D654E23AC213D002AD2DC /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOGO.png; sourceTree = "<group>"; };
+		04F47B4C23B0421700B98ABD /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		061D58D50A664F5427C03045 /* Pods_MoveAndGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveAndGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CFDCE3204F6BC5FA02AED8 /* Pods-MoveAndGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveAndGo.debug.xcconfig"; path = "Target Support Files/Pods-MoveAndGo/Pods-MoveAndGo.debug.xcconfig"; sourceTree = "<group>"; };
 		51E6A6B2FA91505FECAB4E5E /* Pods-MoveAndGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveAndGo.release.xcconfig"; path = "Target Support Files/Pods-MoveAndGo/Pods-MoveAndGo.release.xcconfig"; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 		043D653F23ABA667002AD2DC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04F47B4C23B0421700B98ABD /* video.mp4 */,
 				043D654E23AC213D002AD2DC /* LOGO.png */,
 				043D654623ABA6CE002AD2DC /* Bici.png */,
 				043D654023ABA6CE002AD2DC /* bus.png */,
@@ -309,6 +312,7 @@
 				043D654923ABA6CE002AD2DC /* moto.png in Resources */,
 				043D654723ABA6CE002AD2DC /* bus.png in Resources */,
 				043D64E023A964A5002AD2DC /* LaunchScreen.storyboard in Resources */,
+				04F47B4D23B0421700B98ABD /* video.mp4 in Resources */,
 				043D652D23A97CCB002AD2DC /* dataJson.json in Resources */,
 				043D64DD23A964A5002AD2DC /* Assets.xcassets in Resources */,
 				043D64D823A964A2002AD2DC /* Main.storyboard in Resources */,

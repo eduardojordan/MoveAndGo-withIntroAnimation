@@ -158,4 +158,5 @@ extension GMSMarker {
 
 
 
-
+// Pendiente Instalar cluster para Map de Google
+// Realizar animacion de logo con .mov
