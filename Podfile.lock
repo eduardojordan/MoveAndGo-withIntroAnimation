@@ -8,6 +8,7 @@ PODS:
     - GoogleMaps/Base
   - GooglePlaces (3.7.0):
     - GoogleMaps/Base (= 3.7.0)
+  - lottie-ios (3.1.5)
   - MapLoader (0.1.0):
     - CustomMapAnnotation
     - GoogleMaps
@@ -16,6 +17,7 @@ DEPENDENCIES:
   - BulletinBoard
   - GoogleMaps
   - GooglePlaces
+  - lottie-ios
   - MapLoader (~> 0.1)
 
 SPEC REPOS:
@@ -24,6 +26,7 @@ SPEC REPOS:
     - CustomMapAnnotation
     - GoogleMaps
     - GooglePlaces
+    - lottie-ios
     - MapLoader
 
 SPEC CHECKSUMS:
@@ -31,8 +34,9 @@ SPEC CHECKSUMS:
   CustomMapAnnotation: 2455c50c6193fc4dd929392c3c5dd8ae1c65e0f9
   GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
   GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
+  lottie-ios: 32bf84389337d86fbc8b12266e88452e0abf1dee
   MapLoader: 89b36d5068fe8eea339fba63c85f9995e33a74c7
 
-PODFILE CHECKSUM: b7ec9461e113033aa3eb7827ff515466f1ad7f48
+PODFILE CHECKSUM: ac7d5bc099ee48b1debc420ac01bd361761d82c6
 
 COCOAPODS: 1.8.4

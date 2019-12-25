@@ -28,6 +28,8 @@
 		043D654C23ABA6CE002AD2DC /* drone.png in Resources */ = {isa = PBXBuildFile; fileRef = 043D654523ABA6CE002AD2DC /* drone.png */; };
 		043D654D23ABA6CE002AD2DC /* Bici.png in Resources */ = {isa = PBXBuildFile; fileRef = 043D654623ABA6CE002AD2DC /* Bici.png */; };
 		043D654F23AC213D002AD2DC /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 043D654E23AC213D002AD2DC /* LOGO.png */; };
+		04F3C99E23B26F3200112BCD /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3C99D23B26F3200112BCD /* AnimationViewController.swift */; };
+		04F3C9A423B29C9C00112BCD /* PointJump.json in Resources */ = {isa = PBXBuildFile; fileRef = 04F3C9A323B29C9C00112BCD /* PointJump.json */; };
 		04F47B4D23B0421700B98ABD /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04F47B4C23B0421700B98ABD /* video.mp4 */; };
 		71BCA737807C34989BA22BD6 /* Pods_MoveAndGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061D58D50A664F5427C03045 /* Pods_MoveAndGo.framework */; };
 		7D21CE5417FDEBB00EA35410 /* Pods_MoveAndGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08D239A2D3C20B6AE98EB71 /* Pods_MoveAndGoTests.framework */; };
@@ -67,6 +69,8 @@
 		043D654523ABA6CE002AD2DC /* drone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drone.png; sourceTree = "<group>"; };
 		043D654623ABA6CE002AD2DC /* Bici.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bici.png; sourceTree = "<group>"; };
 		043D654E23AC213D002AD2DC /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOGO.png; sourceTree = "<group>"; };
+		04F3C99D23B26F3200112BCD /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		04F3C9A323B29C9C00112BCD /* PointJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PointJump.json; sourceTree = "<group>"; };
 		04F47B4C23B0421700B98ABD /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		061D58D50A664F5427C03045 /* Pods_MoveAndGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveAndGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CFDCE3204F6BC5FA02AED8 /* Pods-MoveAndGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveAndGo.debug.xcconfig"; path = "Target Support Files/Pods-MoveAndGo/Pods-MoveAndGo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 		043D64C423A964A2002AD2DC = {
 			isa = PBXGroup;
 			children = (
+				04F3C9A323B29C9C00112BCD /* PointJump.json */,
 				043D64CF23A964A2002AD2DC /* MoveAndGo */,
 				043D651823A96BF3002AD2DC /* MoveAndGoTests */,
 				043D64CE23A964A2002AD2DC /* Products */,
@@ -164,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				043D64D423A964A2002AD2DC /* ViewController.swift */,
+				04F3C99D23B26F3200112BCD /* AnimationViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -309,6 +315,7 @@
 				043D654D23ABA6CE002AD2DC /* Bici.png in Resources */,
 				043D654C23ABA6CE002AD2DC /* drone.png in Resources */,
 				043D654823ABA6CE002AD2DC /* car.png in Resources */,
+				04F3C9A423B29C9C00112BCD /* PointJump.json in Resources */,
 				043D654923ABA6CE002AD2DC /* moto.png in Resources */,
 				043D654723ABA6CE002AD2DC /* bus.png in Resources */,
 				043D64E023A964A5002AD2DC /* LaunchScreen.storyboard in Resources */,
@@ -419,6 +426,7 @@
 			files = (
 				043D64D523A964A2002AD2DC /* ViewController.swift in Sources */,
 				043D64D123A964A2002AD2DC /* AppDelegate.swift in Sources */,
+				04F3C99E23B26F3200112BCD /* AnimationViewController.swift in Sources */,
 				043D652423A96D46002AD2DC /* ModelLocation.swift in Sources */,
 				043D64DB23A964A2002AD2DC /* MoveAndGo.xcdatamodeld in Sources */,
 				043D64D323A964A2002AD2DC /* SceneDelegate.swift in Sources */,

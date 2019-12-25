@@ -34,9 +34,13 @@ class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDel
         locationManager.delegate = self
         locationManager.startUpdatingLocation()
         
-        let frame: GMSCameraPosition = GMSCameraPosition.camera(withLatitude: 38.711046,
-                                                                longitude: -9.160096,
-                                                                zoom: 16.0)
+//        let frame: GMSCameraPosition = GMSCameraPosition.camera(withLatitude: 38.711046,
+//                                                                longitude: -9.160096,
+//                                                                zoom: 16.0)
+        
+        let frame: GMSCameraPosition = GMSCameraPosition.camera(withLatitude: 38.7236190172 ,
+                                                                   longitude: -9.1517000432,
+                                                                   zoom: 16.0)
        
         
         MapView.camera = frame
@@ -159,4 +163,4 @@ extension GMSMarker {
 
 
 // Pendiente Instalar cluster para Map de Google
-// Realizar animacion de logo con .mov
+
